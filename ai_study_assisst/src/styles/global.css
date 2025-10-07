@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #1e293b;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  width: 200px;
+  background: #e2e8f0;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.main-content {
+  display: flex;
+}
+
+.page-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 10px;
+  text-align: center;
+}
